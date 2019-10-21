@@ -10,6 +10,7 @@ export class AppComponent  {
   userData: any = [];
   showItems: any = [];
   AnimationClass = '';
+
   constructor(readonly http: HttpClient) {
     console.log('constructor');
     this.ngOnIniIt();
