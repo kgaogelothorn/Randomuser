@@ -1,6 +1,13 @@
-body,
-html {
+body,html {
   height: auto;
+}
+.c-card__header {
+  padding: .75rem;
+  background:  #ced9e1;
+  height: 85px;
+  margin-bottom: 75px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .header {
   height: 300px;
@@ -10,6 +17,13 @@ html {
 .c-card {
   border-radius: 5px;
 }
+.u-content--center {
+  max-width: 720px;
+}
+
+.u-image--rounded {
+  border: 5px solid #fff;
+}
 .c-tabs .active {
   background: rgba(94, 192, 208, 0.75) !important;
   color: inherit;
@@ -17,13 +31,6 @@ html {
 .c-tabs__list {
   border-radius: 50px;
 }
-.c-card__header {
-  padding: 0.75rem;
-  background: #d4d9da;
-}
 .c-tabs__list:hover {
   background: rgba(94, 192, 208, 0.75) !important;
-}
-.u-content--center {
-  max-width: 720px;
 }
